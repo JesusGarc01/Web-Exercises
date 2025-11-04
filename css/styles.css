@@ -1,0 +1,45 @@
+*{
+    border: 0;
+    padding: 0;
+    margin: 0;
+}
+
+html, body{
+    height: 100%;
+}
+
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.cuadro{
+    width: 100px;
+    height: 200px;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.clk{
+    color:aqua;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position:relative;
+    width: 100%;
+    height: 100%;
+}
+
+/* .texto_n{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    color: greenyellow;
+
+} */
